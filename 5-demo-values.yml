@@ -9,6 +9,7 @@ namespace:
   name: 5-demo
 
 labels:
-  app: block-buster
-  version: 7.5.0
-  env: dev
+  app:
+    name: block-buster
+    version: 7.5.0
+    env: dev

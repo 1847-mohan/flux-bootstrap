@@ -16,9 +16,10 @@ spec:
   targetNamespace: 5-demo
   values:
     labels:
-      app: block-buster
-      env: dev
-      version: 7.5.0
+      app: 
+        name: block-buster
+        env: dev
+        version: 7.5.0
     namespace:
       name: 5-demo
     replicaCount: 2
