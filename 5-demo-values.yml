@@ -1,0 +1,14 @@
+---
+replicaCount: 2
+
+service:
+  type: NodePort
+  port: 30005
+
+namespace:
+  name: 5-demo
+
+labels:
+  app: block-buster
+  version: 7.5.0
+  env: dev
